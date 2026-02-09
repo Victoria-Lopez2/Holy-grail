@@ -24,7 +24,7 @@
             position: fixed;
             width: 90%;
             height: 50px;
-            background-color: #FF6347; /* Adobe Color Wheel: Complementary red-orange for nav */
+            background-color: #FF6347; /* red-orange for nav */
             top: 170px;
             left: 35px;
         }
@@ -35,7 +35,7 @@
             top: 45px;
             width: 65%;
             height: 70%;
-            background-color: #008B8B; /* Adobe Color Wheel: Analogous blue-green for articles container */
+            background-color: #008B8B; /* blue-green for articles container */
         }
 
         article {
@@ -46,16 +46,17 @@
             position: relative;
             top: 15px;
             margin-bottom: 10px;
+            box-sizing: border-box; 
         }
 
         aside {
             width: 25%; 
             height: 420px;
             background-color: #9370DB; /* purple for aside */
-            position: absolute;
+            position: fixed; 
             left: 70%; 
             right: 5%; 
-            top: 235px;
+            bottom: 70px; 
             padding: 10px; 
             box-sizing: border-box; 
         }
