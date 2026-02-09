@@ -49,13 +49,15 @@
         }
 
         aside {
-            width: 40%;
+            width: 25%; 
             height: 420px;
             background-color: #9370DB; /* purple for aside */
             position: absolute;
-            left: 50%;
-            right: 10%;
+            left: 70%; 
+            right: 5%; 
             top: 235px;
+            padding: 10px; 
+            box-sizing: border-box; 
         }
 
         footer {
@@ -69,11 +71,11 @@
 </head>
 <body>
     <header>
-        <p>This header uses static positioning by default (no explicit position property is set), meaning it flows naturally in the document order at the top of the page. It occupies 90% width with margins of 25px on all sides, which displace it inward from the edges and create breathing room. Since static positioning doesn't use properties like top, left, bottom, or right for displacement, the element stays in its normal flow position without overlapping others, ensuring it appears first and centered without any offset adjustments.</p>
+        <p>This header uses static positioning by default, meaning no explicit position property is set so it flows naturally in the document order at the top of the page. It occupies 90% width with margins of 25px on all sides, which displace it inward from the edges and create breathing room. Since static positioning doesn't use properties like top, left, bottom, or right for displacement, the element stays in its normal flow position without overlapping others, ensuring it appears first and centered without any offset adjustments.</p>
     </header>
 
     <nav>
-        <p>This nav uses fixed positioning, which takes it out of the normal document flow and anchors it to the viewport (browser window). The top: 170px property displaces it 170px down from the top of the viewport, and left: 35px shifts it 35px from the left edge, positioning it below the header. Fixed positioning works with top and left to create a persistent bar that doesn't scroll with the page content, which is why it remains visible and displaced from the flowing elements, allowing for a fixed navigation area in the Holy Grail layout.</p>
+        <p>This nav uses fixed positioning, which takes it out of the normal document flow and anchors it to the browser window. The top: 170px property displaces it 170px down from the top of the viewport, and left: 35px shifts it 35px from the left edge, positioning it below the header. Fixed positioning works with top and left to create a persistent bar that doesn't scroll with the page content, which is why it remains visible and displaced from the flowing elements, allowing for a fixed navigation area in the Holy Grail layout.</p>
     </nav>
 
     <div>
